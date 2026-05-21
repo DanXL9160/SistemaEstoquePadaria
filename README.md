@@ -1,12 +1,12 @@
 # SistemaEstoquePadaria
 Sistema em Java para controle de estoque de uma padaria fictícia
-# 🥖 Sistema de Controle de Estoque - Padaria Fictícia
+#  Sistema de Controle de Estoque - Padaria Fictícia
 
 Este projeto consiste em um sistema de gerenciamento e controle de estoque desenvolvido em Java com persistência em banco de dados MySQL, projetado para atender às necessidades operacionais de uma padaria de forma simples, rápida e organizada.
 
 ---
 
-## 🛠️ Tecnologias e Arquitetura
+##  Tecnologias e Arquitetura
 
 * **Linguagem:** Java (Versão 17 ou 21)
 * **Gerenciador de Dependências:** Maven
@@ -15,11 +15,11 @@ Este projeto consiste em um sistema de gerenciamento e controle de estoque desen
 
 ---
 
-## 📋 Levantamento de Requisitos
+##  Levantamento de Requisitos
 
 Abaixo estão listados os Requisitos Funcionais (o que o sistema faz) e os Requisitos Não Funcionais (características técnicas e restrições do sistema).
 
-### 🔹 Requisitos Funcionais (RF)
+###  Requisitos Funcionais (RF)
 
 * **RF01 - Cadastrar Produtos:** O sistema deve permitir o cadastro de novos produtos contendo nome, data de validade, quantidade atual e quantidade mínima esperada.
 * **RF02 - Registrar Categoria:** O sistema deve permitir associar cada produto a uma categoria específica (ex: Pães, Bolos, Bebidas, Frios).
@@ -28,7 +28,7 @@ Abaixo estão listados os Requisitos Funcionais (o que o sistema faz) e os Requi
 * **RF05 - Filtrar por Categoria:** O sistema deve permitir a listagem de produtos filtrados por uma categoria selecionada pelo usuário.
 * **RF06 - Filtrar por Vencimento:** O sistema deve permitir a filtragem de produtos que estejam com a data de validade vencida ou próximos do vencimento (janela de 7 dias).
 
-### 🔸 Requisitos Não Funcionais (RNF)
+###  Requisitos Não Funcionais (RNF)
 
 * **RNF01 - Banco de Dados Relacional:** O sistema deve obrigatoriamente persistir os dados em um banco de dados MySQL.
 * **RNF02 - Integridade e Conexão:** A conexão com o banco de dados deve conter tratamento de exceções (`try-catch`) para garantir a estabilidade do software e evitar vazamento de memória.
@@ -37,7 +37,7 @@ Abaixo estão listados os Requisitos Funcionais (o que o sistema faz) e os Requi
 
 ---
 
-## 🗄️ Estrutura do Banco de Dados (Dados Iniciais)
+##  Estrutura do Banco de Dados (Dados Iniciais)
 
 O sistema opera com a tabela `produtos` estruturada da seguinte forma para os testes iniciais de validação:
 
@@ -50,7 +50,7 @@ O sistema opera com a tabela `produtos` estruturada da seguinte forma para os te
 
 ---
 
-## 📂 Estrutura do Projeto no IntelliJ
+##  Estrutura do Projeto no IntelliJ
 
 ```text
 SistemaEstoquePadaria 
